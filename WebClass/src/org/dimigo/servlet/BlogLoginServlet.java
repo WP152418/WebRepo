@@ -72,14 +72,14 @@ public class BlogLoginServlet extends HttpServlet {
          session.setAttribute("logged_in", "true");
          
          map.put("name", "이서영");
-         map.put("nickname", "룬룬");
+         map.put("nickname", "runeee");
          map.put("status", "success");
          map.put("msg", "이서영 님, 로그인 되었습니다.");
       } else {
          request.setAttribute("msg", "error");
          
          map.put("status", "fail");
-         map.put("msg", "오류가 발생했습니다.");
+         map.put("msg", "로그인 중 오류가 발생했습니다.");
       }
       
       PrintWriter out = response.getWriter();

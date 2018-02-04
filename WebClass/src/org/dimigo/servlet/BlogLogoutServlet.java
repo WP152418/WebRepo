@@ -29,7 +29,7 @@ public class BlogLogoutServlet extends HttpServlet {
       // TODO Auto-generated method stub
       request.getSession().invalidate();
       
-      response.sendRedirect("/WebClass/myblog/blog.jsp");
+      response.sendRedirect("/WebClass/myblog/myblog.jsp");
    }
 
    /**
